@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+}
+
+.characterBackground {
+    background: url(/static/img/characterBackground.svg);
+    background-size: cover;
+}
+
+.auth-container {
+    align-items: center;
+    flex-direction: column;
+    background-color: #36393f;
+
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    padding: 40px;
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+}
+
+.friends-list a {
+   text-decoration: none;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.avatar-small {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
